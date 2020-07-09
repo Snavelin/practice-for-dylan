@@ -63,6 +63,10 @@ body {
     padding-bottom: 2em;
     background-color: #ffffff;
     /*box-shadow: 0 4px 4px gray;*/
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 h3 {
