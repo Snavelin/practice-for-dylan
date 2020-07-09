@@ -85,12 +85,14 @@ h3 {
 
 #lastSave {
     margin: 0 0.3cm 0 0;
+    order: 2;
 }
 
 #savePageButton {
     background-color: #dadcde;
     border-radius: 5px;
     padding: 0.2cm 0.3cm;
+    order: 1;
 }
 
 .card {
@@ -101,4 +103,18 @@ h3 {
     border-color: #e8eaeb;
     margin: 0.75cm 0.5cm;
     padding: 1cm 0.5cm;
+}
+
+.updateImageButton {
+    display: inline-block;
+    color: #569bf1;
+    border-style: solid;
+    border-color: #569bf1;
+    border-width: 2px;
+    border-radius: inherit;
+    padding: 0.3cm 0.4cm;
+}
+
+hr {
+    margin: 1cm 0;
 }
