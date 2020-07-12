@@ -95,7 +95,7 @@ h3 {
     order: 1;
 }
 
-.card {
+.card, .goLiveModal {
     background-color: white;
     border-radius: 8px;
     border-style: solid;
@@ -103,6 +103,20 @@ h3 {
     border-color: #e8eaeb;
     margin: 0.75cm 0.5cm;
     padding: 1cm 0.5cm;
+}
+
+.goLiveModal {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    width: 13cm;
+    margin-top: 1cm;
+    top: 4cm;
+}
+
+.modalContainer {
+    display: flex;
+    justify-content: center;
 }
 
 .updateImageButton {
