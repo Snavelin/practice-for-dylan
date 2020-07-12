@@ -134,6 +134,22 @@ h3 {
     padding: 0.3cm 0.4cm;
 }
 
+#modalFirstLine {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.closeButton {
+    font-size: 28px;
+}
+
+.closeButton:hover,
+.closeButton:focus {
+    cursor: pointer;
+}
+
 hr {
     margin: 1cm 0;
 }

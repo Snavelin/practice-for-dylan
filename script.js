@@ -15,3 +15,9 @@ window.onclick = function (event) {
         modalContainer.style.display = "none";
     }
 }
+// When user clicks on close button (X), close the modal.
+var closeButton = document.getElementsByClassName("closeButton")[0]
+closeButton.onclick = function () {
+    main.style.opacity = "100%";
+    modalContainer.style.display = "none"
+}
