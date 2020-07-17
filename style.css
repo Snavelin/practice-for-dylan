@@ -156,6 +156,29 @@ h3 {
     align-items: baseline;
 }
 
+.modalButtonContainer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.modalButton {
+    color: #295cb9;
+    background-color: #8fd2fc;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #295cb9;
+    padding: 0.2cm 0.5cm;
+    margin-left: 0.5cm;
+}
+
+#modalGoLiveButton {
+    order: 1;
+}
+
+#modalCancelButton {
+    order: 2;
+}
+
 .closeButton {
     font-size: 28px;
 }
